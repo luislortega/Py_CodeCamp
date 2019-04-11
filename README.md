@@ -1,8 +1,22 @@
 # IDEA:
 
-Nuestra propuesta da una solucion a la problematica de medir el crecimiento economico por ciudades en Mexico, lo primero que se debe tomar en cuenta es la separacion territorial en todo el pais, para eso utilizaremos datos abiertos sobre la distribucion territorial en Mexico de la CONAPO para generar almacenar todas las ciudades en nuestra base de datos, utilizando informacion de la INEGI sobre la poblacion total en Mexico por entidad federativa sera almacenada la cantidad de poblacion en cada estado, es importante tomar en cuenta que la INEGI no actualiaza estos datos desde el 2015, pero nos proporciona datos de 1990, 1995, 2000, 2005, 2010, utilizando un modelo estadistico  
+Construir un modelo estadístico que explique el crecimiento económico a nivel entidad federativa en México.
+
+Nuestra propuesta da una solucion a la problematica de medir el crecimiento de las ciudades en Mexico, lo hara de dos maneras: Medira el crecimiento poblacional y el crecimiento economico de la ciudad.
+
+Para medir el crecimiento poblacional lo primero que se debe tomar en cuenta es la separacion territorial en todo el pais, para eso utilizaremos datos abiertos sobre la distribucion territorial en Mexico de la CONAPO para almacenar todas las ciudades de Mexico en nuestra base de datos, utilizando informacion de la INEGI sobre la poblacion total en Mexico por entidad federativa sera almacenada la cantidad base de poblacion en cada estado, es importante tomar en cuenta que la INEGI no actualiaza estos datos desde el 2017 pero nos proporciona informacion de años anteriores, en base a esos datos  se hara un sistema estadistico que nos dira las aproximaciones poblacionales por ciudad en todo Mexico del 2018 y 2019.
+
+para medir datos sobre el crecimiento economico lo haremos mediante la inversion que hace el es
+
+¿Que tengo hasta ahora?
+- Division por territorios en Mexico
+- Poblacion y crecimiento poblacional en las ciudades y estados
+- Valor agregado por entidad federativa y clasificacion por actividad economica 
+- Numero de empresas por entidad federativa | clasificacion por actividad economica |
 
 URLs:
+- API SAT:https://www.siat.sat.gob.mx
+- Microregiones SEDESOL: http://www.microrregiones.gob.mx/catloc/LocdeMun.aspx?ent=06&mun=007
 - Poblacion por entidad federativa: https://www.inegi.org.mx/temas/estructura/default.html#Informacion_general
 - Producto interno bruto por entidad federativa: https://www.inegi.org.mx/programas/pibent/2013/default.html#Metadatos
 - Listado de negocios en Mexico: https://www.inegi.org.mx/servicios/api_denue.html
@@ -10,8 +24,9 @@ URLs:
 - Datos abiertos de SAT: http://omawww.sat.gob.mx/cifras_sat/Paginas/inicio.html
 - Datos abiertos de Banxico: http://www.banxico.org.mx/SieInternet/
 - API Conexiones de Banxico: http://www.banxico.org.mx/monspei/#todos
-
-
+- Nacimientos ocurridos en Mexico: https://www.inegi.org.mx/temas/natalidad/
+- Hacienda: https://datos.gob.mx/busca/dataset?organization=shcp&tags=economia
+- Consultas por RFC: https://www.sat.gob.mx/aplicacion/operacion/29073/verifica-si-estas-registrado-en-el-rfc
 
 # Entidades de informacion:
 
